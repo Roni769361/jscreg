@@ -79,6 +79,7 @@ body {
   border: 0.2px solid black;
   font-size: 20px;
   margin: 5px;
+  text-decoration: none;
 }
 
 .ButtonHearNow:hover {
@@ -150,5 +151,23 @@ footer .col-md-4 {
   footer .col-md-4 {
     width: 100%;
     margin-bottom: 30px;
+  }
+}
+#buttonReg {
+  animation: zoomColor 2s ease-in-out infinite;
+}
+
+@keyframes zoomColor {
+  0% {
+    transform: scale(1);
+    color: red;
+  }
+  50% {
+    transform: scale(1.1);
+    color: blue;
+  }
+  100% {
+    transform: scale(1);
+    color: green;
   }
 }
