@@ -177,10 +177,10 @@ iframe {
   border: 3px double rgb(11, 34, 238);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 450px) {
   iframe {
     width: 100%;
-    height: 1100px;
+    height: 1050px;
     border: 3px double rgb(11, 34, 238);
   }
 }
